@@ -63,34 +63,35 @@ By completing this project, you will:
 
 alx-project-0x02/
 ├── components/
-│ ├── common/
-│ │ ├── Button.tsx
-│ │ ├── Card.tsx
-│ │ ├── PostCard.tsx
-│ │ ├── PostModal.tsx
-│ │ └── UserCard.tsx
-│ └── layout/
-│ └── Header.tsx
+│   ├── common/
+│   │   ├── Button.tsx
+│   │   ├── Card.tsx
+│   │   ├── PostCard.tsx
+│   │   ├── PostModal.tsx
+│   │   └── UserCard.tsx
+│   └── layout/
+│       └── Header.tsx
 ├── interfaces/
-│ └── index.ts
+│   └── index.ts
 ├── pages/
-│ ├── _app.tsx
-│ ├── _document.tsx
-│ ├── index.tsx
-│ ├── about.tsx
-│ ├── home.tsx
-│ ├── posts.tsx
-│ └── users.tsx
+│   ├── _app.tsx
+│   ├── _document.tsx
+│   ├── index.tsx
+│   ├── about.tsx
+│   ├── home.tsx
+│   ├── posts.tsx
+│   └── users.tsx
 ├── public/
-│ └── assets/
-│ └── images/
+│   └── assets/
+│       └── images/
 ├── styles/
-│ └── globals.css
+│   └── globals.css
 ├── .eslintrc.json
 ├── next.config.js
 ├── package.json
 ├── tsconfig.json
 └── README.md
+
 
 
 ---
