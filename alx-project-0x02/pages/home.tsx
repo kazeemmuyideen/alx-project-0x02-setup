@@ -1,7 +1,8 @@
 // pages/home.tsx
 
-import { useState } from "react";
+import React from "react";
 import Card from "@/components/common/Card";
+import { useState } from "react";
 import PostModal from "@/components/common/PostModal";
 
 interface Post {
@@ -21,7 +22,8 @@ export default function HomePage() {
   };
 
   return (
-    <div className="p-6">
+      <div className="p-6">
+          
       <h1 className="text-2xl font-bold mb-4">Home Page</h1>
 
       <button
