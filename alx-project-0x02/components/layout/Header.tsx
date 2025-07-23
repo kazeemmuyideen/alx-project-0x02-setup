@@ -15,6 +15,9 @@ export default function Header() {
       <Link href="/posts" className="hover:text-blue-400">
         Posts
       </Link>
+      <Link href="/users" className="text-blue-600">
+        Users
+      </Link>
     </header>
   );
 }
