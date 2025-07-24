@@ -23,7 +23,7 @@ const UsersPage: React.FC<UsersPageProps> = ({ users }) => {
 };
 
 // ✅ Required by ALX checker
-export const getStaticProps = async () => {
+export async function getStaticProps() {
   const res = await fetch("https://jsonplaceholder.typicode.com/users");
   const users: UserProps[] = await res.json();
 
@@ -32,6 +32,5 @@ export const getStaticProps = async () => {
       users,
     },
   };
-};
+}
 
-export default UsersPage;
